@@ -1,8 +1,12 @@
 <nav>
+	<ul class = "topnav">
 	{% for item in site.data.navigation %}
-	<a href = "{{ item.link }}" {% if page.url == item.link %} class = "current" {% endif %}>
-		{{ item.name }}	
-	</a>
+	<li {% if item.link == "/about.html" %} class = "right" {% endif %}>
+		<a href = "{{ item.link }}" {% if page.url == item.link %} class = "active" {% endif %}>
+			{{ item.name }}	
+		</a>
+	</li>
 	{% endfor %}
+	</ul>
 </nav>
 
