@@ -1,5 +1,8 @@
 url: http://lab.dengwenfeng.com
-baseurl: 
+baseurl:  
+title: blog 
+description: jekyll blog template
+
 
 destination: /var/www/html
 
