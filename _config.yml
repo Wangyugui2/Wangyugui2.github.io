@@ -1,3 +1,6 @@
+url: http://lab.dengwenfeng.com
+baseurl: 
+
 destination: /var/www/html
 
 collections:
