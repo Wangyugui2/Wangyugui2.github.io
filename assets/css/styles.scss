@@ -1,12 +1,7 @@
 ---
 ---
 
-$root-font-family: Georgia, serif;
-$root-font-size: 16px;
-$root-line-height: 1.5;
-
-$large-breakpoint: 38em;
-$large-font-size: 20px;
-
+@import "variables";
 @import "base";
 @import "layout";
+@import "syntax";
