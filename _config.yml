@@ -1,10 +1,10 @@
 url: http://lab.dengwenfeng.com
-baseurl:  
+baseurl: /blog
 title: blog 
 description: jekyll blog template
 
 
-destination: /var/www/html
+destination: /var/www/html/blog
 
 collections:
     authors:
