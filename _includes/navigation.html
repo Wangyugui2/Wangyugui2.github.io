@@ -2,7 +2,7 @@
 	<ul class = "topnav">
 	{% for item in site.data.navigation %}
 	<li {% if item.link == "/about.html" %} class = "right" {% endif %}>
-		<a href = "{{ item.link }}" {% if page.url == item.link %} class = "active" {% endif %}>
+		<a href = "{{site.baseurl}}{{ item.link }}" {% if page.url == item.link %} class = "active" {% endif %}>
 			{{ item.name }}	
 		</a>
 	</li>
