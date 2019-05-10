@@ -9,7 +9,11 @@
 		<link rel="stylesheet" href="/assets/css/styles.css">
 		
 		<script type="text/x-mathjax-config">
-			  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+			MathJax.Hub.Config({
+				showProcessingMessages: false, //关闭js加载过程信息
+				messageStyle: "none", //不显示信息
+				tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+			});
 		</script>
 
 		<script type="text/javascript" async
