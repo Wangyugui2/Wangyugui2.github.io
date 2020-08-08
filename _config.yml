@@ -1,31 +1,28 @@
-url: https://lab.dengwenfeng.com
+url: https://professordeng.com
 baseurl: /blog
 title: blog 
 description: jekyll blog template
 
-
-destination: /var/www/html/blog
-
 collections:
-    authors:
-        output: true
+  authors:
+    output: true
 
 
 defaults:
-    - scope:
-        path: ""
-        type: "authors"
-      values:
-        layout: "author"
-    - scope:
-        path: ""
-        type: "posts"
-      values:
-        layout: "post"
-    - scope:
-        path: ""
-      values:
-        layout: "default"
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
 
 plugins:
     - jekyll-feed
